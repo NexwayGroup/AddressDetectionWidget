@@ -15,7 +15,10 @@ Installation
 -------------
 
 **Download with bower**<br >
-You can use bower to get latest version of Address Detection Widget. Just type: ```bower install address-detection-widget``` in system terminal/console.
+You can use bower to get latest version of Address Detection Widget. Just type in system terminal/console:
+```bash
+bower install address-detection-widget --save
+```
 
 To enable this widget on your website you have to include javascript documents in your document head section:
  ```html
@@ -48,16 +51,11 @@ First and foremost you have to create widget placeholder
 The width of the widget is always 100% so it fills its container. Height is fixed.
 
 After that initialize plugin using code below. place it somewhere in your document (for example at the bottom, just before ```</body>``` tag).
-```html
-
-<script>
-
+```javascript
 // WIDGET INITIALIZATION
 $('#yourWidgetID').AddressDetectionWidget({
     formId: '#testForm' // id of form you want to fill with collected values
 });
-
-</script>
 
 ```
 
@@ -68,7 +66,7 @@ Options
 
 You can change widget settings by passing them as an JavaScript Object during initialization. Below is the list of options with their default values.
 
-```JS
+```javascript
 defaultOptions = {
       formId: '',
       addressId: '#street',
@@ -105,9 +103,7 @@ defaultOptions = {
 
 And here is example how to change default ID of post-code input and success message title diuring plugin initialization. Remember to add **#** sign before input ID.
 
-```html
-<script>
-
+```javascript
 // WIDGET INITIALIZATION
 $('#yourWidgetID').AddressDetectionWidget({
     formId: '#testForm',
@@ -118,8 +114,6 @@ $('#yourWidgetID').AddressDetectionWidget({
       }
     }
 });
-
-</script>
 
 ```
 
