@@ -345,7 +345,7 @@ module.exports = function (grunt) {
     replace: {
       min: {
         src: ['<%= yeoman.dist %>/scripts/addressDetectionWidget.min.js'],
-        dest: '<%= yeoman.dist %>/scripts/bare/addressDetectionWidget-bare.min.js',
+        dest: '<%= yeoman.dist %>/scripts/legacy/addressDetectionWidget-legacy.min.js',
         replacements: [{
           from: /\(function\(\){/,
           to: 'jQuery(function($){'
@@ -356,7 +356,7 @@ module.exports = function (grunt) {
       },
       full: {
         src: ['<%= yeoman.dist %>/scripts/addressDetectionWidget.js'],
-        dest: '<%= yeoman.dist %>/scripts/bare/addressDetectionWidget-bare.js',
+        dest: '<%= yeoman.dist %>/scripts/legacy/addressDetectionWidget-legacy.js',
         replacements: [{
           from: /\(function\(\) {/,
           to: 'jQuery(function($) {'
