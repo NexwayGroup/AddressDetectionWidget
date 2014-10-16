@@ -1,5 +1,6 @@
 Address Detection Widget v.1.0.1
 ===================
+[![Build Status](https://travis-ci.org/NexwayGroup/AddressDetectionWidget.svg?branch=1.0.1)](https://travis-ci.org/NexwayGroup/AddressDetectionWidget)
 
 Retrieves user localization and tries to find his current address using google maps api. After that it automatically fill HTML form with collected values. Widget is using browser geolocalization functionality. The list of supported browsers are [here.](http://caniuse.com/#feat=geolocation) 
 
