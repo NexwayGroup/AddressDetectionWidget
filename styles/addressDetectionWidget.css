@@ -1,0 +1,13 @@
+/*
+ * @author Michal Katanski <mkatanski@nexway.com>
+ */
+.addressDetectionWidget .step-error .tryBtn {
+  margin-top: 10px;
+}
+.addressDetectionWidget address {
+  line-height: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  display: block;
+}
