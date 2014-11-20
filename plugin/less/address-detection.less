@@ -59,14 +59,18 @@
       margin: @address-detection-btn-margin;
 
       &.btn-link {
-        font-weight: @address-detection-btn-font-weight;
-        color: @address-detection-btn-color;
-        cursor: @address-detection-btn-cursor;
-        border-radius: @address-detection-btn-border-radius;
-        border: @address-detection-btn-border;
-        box-shadow: @address-detection-btn-box-shadow;
-        background-color: @address-detection-btn-background-color;
-        font-size: @address-detection-btn-font-size;
+        font-weight: @address-detection-btn-link-font-weight;
+        color: @address-detection-btn-link-color;
+        cursor: @address-detection-btn-link-cursor;
+        border-radius: @address-detection-btn-link-border-radius;
+        border: @address-detection-btn-link-border;
+        box-shadow: @address-detection-btn-link-box-shadow;
+        background: @address-detection-btn-link-background;
+        font-size: @address-detection-btn-link-font-size;
+
+        &:hover {
+          text-decoration: @address-detection-btn-link-hover-text-decoration;
+        }
       }
 
       .btn-custom; // default or custom styles
@@ -84,5 +88,6 @@
     font-weight: @address-detection-address-font-weight;
     margin: @address-detection-address-margin;
     color: @address-detection-address-color;
+    font-size: @address-detection-address-font-size;
   }
 }
