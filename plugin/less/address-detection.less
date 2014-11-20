@@ -40,7 +40,7 @@
     background: @address-detection-close-background;
     line-height: @address-detection-close-line-height;
 
-    .close(); // show or hide close button
+    .close-button; // show or hide close button
   }
 
   h4 {
@@ -69,7 +69,7 @@
         font-size: @address-detection-btn-font-size;
       }
 
-      .btn(); // default or custom styles
+      .btn-custom; // default or custom styles
   }
 
   .step-error {
@@ -85,18 +85,4 @@
     margin: @address-detection-address-margin;
     color: @address-detection-address-color;
   }
-}
-
-// Methods
-.close() when (@close = hide) {
-  display: none;
-}
-
-.btn() when (@btn = custom) {
-  background: @address-detection-btn-background;
-  font-size: @address-detection-btn-font-size;
-  border: @address-detection-btn-border;
-  border-radius: @address-detection-btn-border-radius;
-  padding: @address-detection-btn-padding;
-  box-shadow: @address-detection-btn-box-shadow;
 }

@@ -67,3 +67,18 @@
 @address-detection-btn-box-shadow:                    none;
 @address-detection-btn-background-color:              none;
 @address-detection-btn-font-size:                     12px;
+
+
+// METHODS
+.close-button() when (@close = hide) {
+  display: none;
+}
+
+.btn-custom() when (@btn = custom) {
+  background: @address-detection-btn-background;
+  font-size: @address-detection-btn-font-size;
+  border: @address-detection-btn-border;
+  border-radius: @address-detection-btn-border-radius;
+  padding: @address-detection-btn-padding;
+  box-shadow: @address-detection-btn-box-shadow;
+}
