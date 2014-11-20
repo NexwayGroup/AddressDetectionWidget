@@ -30,16 +30,16 @@ To enable this widget on your website you have to include javascript documents i
  <!--  Google maps API -->
  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
  <!-- Widget core scripts  -->
- <script src="scripts/addressDetectionWidget.min.js"></script>
+ <script src="scripts/AddressDetectionWidget.min.js"></script>
  ```
 
 Also there is need to include css styles sheets:
 ```html
 <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
-<link rel="stylesheet" href="styles/addressDetectionWidget.css">
+<link rel="stylesheet" href="styles/AddressDetectionWidget.css">
 ```
 
-*jq.addressDetectionWidget.min.js* and *addressDetectionWidget.css* files you can find in **/dist/scripts** and **/dist/styles** folders.
+*AddressDetectionWidget.min.js* and *AddressDetectionWidget.min.css* files you can find in **/dist/scripts** and **/dist/styles** folders.
 
 -----------------
 

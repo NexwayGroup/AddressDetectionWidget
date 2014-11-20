@@ -1,13 +1,80 @@
 /*
- * @author Michal Katanski <mkatanski@nexway.com>
+ * @author Damian Duda <dduda@nexway.com>
  */
+/**
+ *
+ * Styles for Address Detection
+ *
+ * @author Damian Duda <dduda@nexway.com>
+ *
+ */
+.addressDetectionWidget {
+  margin: 0;
+  padding: 0;
+}
+.addressDetectionWidget .alert {
+  margin: 0 0 20px;
+  padding: 15px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: none;
+}
+.addressDetectionWidget .alert-info {
+  color: #31708f;
+  background: #d9edf7;
+  border-color: #bce8f1;
+}
+.addressDetectionWidget .alert-danger {
+  color: #a94442;
+  background: #f2dede;
+  border-color: #ebccd1;
+}
+.addressDetectionWidget .close {
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  border: 0;
+  background: none;
+  line-height: normal;
+}
+.addressDetectionWidget h4 {
+  color: inherit;
+  margin: 0 0 3px;
+  padding: 0;
+  border-radius: 0;
+  border: 0;
+  background: none;
+  line-height: normal;
+}
+.addressDetectionWidget .btn {
+  height: auto;
+  line-height: 1.5;
+  margin: 10px 0 0;
+}
+.addressDetectionWidget .btn.btn-link {
+  font-weight: normal;
+  color: inherit;
+  cursor: pointer;
+  border-radius: 0;
+  border: 0;
+  box-shadow: none;
+  background-color: none;
+  font-size: 12px;
+}
 .addressDetectionWidget .step-error .tryBtn {
   margin-top: 10px;
 }
 .addressDetectionWidget address {
+  display: block;
   line-height: 16px;
   font-weight: bold;
-  margin-top: 10px;
-  margin-bottom: 15px;
-  display: block;
+  margin: 10px 0 15px;
+  color: inherit;
 }
+/*
+ *
+ * Variables for Address Detection
+ *
+ * @author Damian Duda <dduda@nexway.com>
+ */
