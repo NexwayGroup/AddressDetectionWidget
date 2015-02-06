@@ -1,4 +1,4 @@
-Address Detection Widget v.1.0.3
+Address Detection Widget v.1.0.4
 ===================
 [![Build Status](https://travis-ci.org/NexwayGroup/AddressDetectionWidget.svg?branch=1.0.1)](https://travis-ci.org/NexwayGroup/AddressDetectionWidget)
 
